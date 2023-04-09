@@ -1,6 +1,9 @@
 .hidden {
     display: none;
 }
+body {
+    box-sizing: content-box;
+}
 
 img {
     position: absolute;
@@ -12,4 +15,12 @@ img {
     bottom: 0px;
     z-index: -1;
     opacity: 80%;
+}
+
+#clock {
+    text-align: center;
+}
+
+#greeting {
+    text-align: center;
 }
